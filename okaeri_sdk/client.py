@@ -40,6 +40,7 @@ def resolve_base_url(env_name: str, default_value: str):
 
 class OkaeriClient:
     def __init__(self, headers: Dict[str, str], base_url: str, timeout: int = 5000):
+        headers['User-Agent'] = 'okaeri-sdk/1 (python)'
         self._headers = headers
         self._base_url = base_url
         self._timeout = timeout
