@@ -9,7 +9,7 @@ Full documentation available on [wiki.okaeri.eu](https://wiki.okaeri.eu/) in:
 
 ## Installation
 ```bash
-pip install git+https://github.com/OkaeriPoland/okaeri-sdk-python#egg=okaeri-sdk
+pip install okaeri-sdk==1.*
 ```
 
 ## Example usage
