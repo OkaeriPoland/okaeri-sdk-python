@@ -6,7 +6,7 @@ setup(
     author='Dawid Sawicki',
     author_email='dawid@okaeri.eu',
     install_requires=['requests', 'marshmallow-dataclass'],
-    version='1.2.0',
+    version='1.2.1',
     license='MIT',
     description='Okaeri Services SDK',
     long_description=open('README.md').read(),
