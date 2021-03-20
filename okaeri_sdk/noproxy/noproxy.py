@@ -1,4 +1,4 @@
-from .model.address_info import NoProxyAddressInfo
+from .model import NoProxyAddressInfo
 from ..client import OkaeriClient, tostring, resolve_base_url, resolve_timeout, resolve_token
 
 

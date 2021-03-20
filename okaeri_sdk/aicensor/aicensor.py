@@ -1,4 +1,4 @@
-from .model.prediction_info import AiCensorPredictionInfo
+from .model import AiCensorPredictionInfo
 from ..client import OkaeriClient, tostring, resolve_token, resolve_timeout, resolve_base_url
 
 
