@@ -1,4 +1,4 @@
-# Okaeri SDK for Python (3.6+)
+# Okaeri SDK for Python (3.7+)
 Currently supported services:
 - [OK! AI.Censor](#ok-aicensor)
 - [OK! No.Proxy](#ok-noproxy)
