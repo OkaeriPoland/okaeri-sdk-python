@@ -1,4 +1,12 @@
 # Okaeri SDK for Python (3.7+)
+
+![License](https://img.shields.io/github/license/OkaeriPoland/okaeri-sdk-python)
+![Total lines](https://img.shields.io/tokei/lines/github/OkaeriPoland/okaeri-sdk-python)
+![Repo size](https://img.shields.io/github/repo-size/OkaeriPoland/okaeri-sdk-python)
+![pypi](https://img.shields.io/pypi/v/okaeri-sdk)
+![Contributors](https://img.shields.io/github/contributors/OkaeriPoland/okaeri-sdk-python)
+[![Discord](https://img.shields.io/discord/589089838200913930)](https://discord.gg/hASN5eX)
+
 Currently supported services:
 - [OK! AI.Censor](#ok-aicensor)
 - [OK! No.Proxy](#ok-noproxy)
