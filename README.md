@@ -29,7 +29,7 @@ from okaeri_sdk.client import OkaeriError
 from okaeri_sdk.aicensor import AiCensorError
 
 try:
-    aicensor = AiCensor(f"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")
+    aicensor = AiCensor("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")
     prediction = aicensor.get_prediction("o cie k u r//w@!")
     swear = prediction.general.swear
     print(f"swear: {swear}")
@@ -45,7 +45,7 @@ from okaeri_sdk.client import OkaeriError
 from okaeri_sdk.noproxy import NoProxyError
 
 try:
-    noproxy = NoProxy(f"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")
+    noproxy = NoProxy("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")
     info = noproxy.get_info("1.1.1.1")
     proxy = info.risks.proxy
     verify = info.suggestions.verify
